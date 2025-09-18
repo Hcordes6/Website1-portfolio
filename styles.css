@@ -6,7 +6,13 @@
 }
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 150%;
     background-color: #A6A6A8;
+}
+h1 a {
+    text-decoration: none;
+    color: #E8E9F3;
+    transition: ease-in-out .3s;
 }
 header {
     display: flex;
@@ -21,6 +27,10 @@ header {
     padding: 20px;
     background-color: #272635;
     box-shadow: 0 8px 16px rgba(12, 3, 82, .2);
+}
+header div {
+    display: flex;
+    gap: 20px;
 }
 header button {
     padding: 10px 20px;
@@ -65,12 +75,13 @@ section {
     display: flex;
     flex-direction: row;
     flex-direction: column;
-
+    
 }
 
 .main-content{
     width: 70%;
     max-width: 850px;
+
 }
 
 
